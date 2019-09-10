@@ -6,6 +6,9 @@ import Specials from "../src/components/ButtonComponents/SpecialButtons/Specials
 import SpecialButton from "../src/components/ButtonComponents/SpecialButtons/SpecialButton";
 import Numbers from "../src/components/ButtonComponents/NumberButtons/Numbers";
 import NumberButton from "../src/components/ButtonComponents/NumberButtons/NumberButton";
+import Display from "../src/components/DisplayComponents/Display";
+
+
 // STEP 4 - import the button and display components
 // Don't forget to import any extra css/scss files you build into the correct component
 
@@ -24,6 +27,14 @@ function App() {
       <Logo />
       <div className="App">
         {/* STEP 4 - Render your components here and be sure to properly import/export all files */}
+             <>  
+               <Display/>
+               <Numbers/>
+               <Operators/>
+               <Specials/>
+             </>
+      
+ 
       </div>
     </div>
   );
