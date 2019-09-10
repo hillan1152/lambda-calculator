@@ -16,7 +16,6 @@ const Operators = () => {
        operatorChar.map((operators, index) => (
         <OperatorButton key={index} operator={operators}/>
       ))}
-
     </div>
   );
 };
