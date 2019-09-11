@@ -24,12 +24,15 @@ function App() {
       <Logo />
       <div className="App">
                <Display />
-               <Numbers />
-               <Operators />
-               <Specials />
+              <div className="btns">
+                <Numbers />
+                <Operators />
+                <Specials />
+               </div> 
       </div>
     </div>
   );
 }
+
 
 export default App;

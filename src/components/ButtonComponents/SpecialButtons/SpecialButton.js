@@ -2,6 +2,6 @@ import React from "react";
 
 
 const SpecialButton = (props) => {
-  return <button>{props.special.value}</button>
+  return <button className="spec-btn, btn" >{props.special}</button>
 };
 export default SpecialButton;
