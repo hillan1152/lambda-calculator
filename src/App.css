@@ -22,28 +22,47 @@
   }
 
   .App {
-    border: 2px solid black;
     display: flex;
     flex-flow: column wrap;
     align-items: center;
+    
   }
   .btns {
     border: 2px solid white;
     display: flex;
-    flex-flow: column wrap;  
+    flex-flow: row;
+    width: 80%;
   }
-  .spec-btn {
-    
-  }
-  .op-btn {
-   
-  }
-  .btn-num {
-    
-  }
+
 
   .btn {
     border-radius: 40px;
-    width: 60px;
-   
+    width: 70px;
+    height: 70px;
+    font-size: 1.5rem;
+    margin: 2%;
   }
+
+  .numBtn:nth-child(10) {
+      width: 150px;
+  }
+  .numDiv {
+    display: flex;
+    flex-flow: column;
+    width: 60%;
+    height: 40%;
+    border: 2px solid white;
+  }
+
+  .opDiv {
+      display: flex;
+      flex-flow: column;
+      height: 500px;
+      width: 100px;
+      border: 2px solid white;  
+  }
+
+
+
+  
+
